@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Silicon-to-Serving">
+  <title>Silicon-to-Serving</title>
+  <defs>
+    <linearGradient id="die" x1="4" y1="4" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0d7a5f"/>
+      <stop offset=".55" stop-color="#1f8fb8"/>
+      <stop offset="1" stop-color="#38c6e8"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="13" fill="url(#die)"/>
+  <path d="M34.5 16 21.1 36.2h8.4L27 48l16-19.4h-9.3z" fill="#fff"/>
+</svg>

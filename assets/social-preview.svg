@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-label="Silicon-to-Serving">
+  <title>Silicon-to-Serving</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="640" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#16233f"/>
+    </linearGradient>
+    <linearGradient id="die" x1="13" y1="13" x2="51" y2="51" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0d7a5f"/>
+      <stop offset=".55" stop-color="#1f8fb8"/>
+      <stop offset="1" stop-color="#38c6e8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="210" cy="312" r="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1f8fb8" stop-opacity=".30"/>
+      <stop offset="1" stop-color="#1f8fb8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <rect width="1280" height="640" fill="url(#glow)"/>
+
+  <!-- trace field -->
+  <g stroke="#38c6e8" stroke-opacity=".10" stroke-width="2" fill="none">
+    <path d="M0 104h980l48 48h252M0 536h980l48-48h252M1120 0v160M1184 640V480"/>
+  </g>
+
+  <!-- chip mark -->
+  <g transform="translate(91.2 203.2) scale(3.4)">
+    <g stroke="#1aa37c" stroke-width="3.4" stroke-linecap="round">
+      <path d="M5 22h9M5 32h9M5 42h9"/>
+      <path d="M50 22h9M50 32h9M50 42h9"/>
+      <path d="M22 5v9M32 5v9M42 5v9"/>
+      <path d="M22 50v9M32 50v9M42 50v9"/>
+    </g>
+    <rect x="13" y="13" width="38" height="38" rx="9" fill="url(#die)"/>
+    <rect x="16.25" y="16.25" width="31.5" height="31.5" rx="6" fill="none" stroke="#fff" stroke-opacity=".22" stroke-width="1.5"/>
+    <path d="M34.1 19 23.1 35.4H30L27.9 45l13-15.7h-7.5z" fill="#fff"/>
+  </g>
+
+  <g font-family="Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif">
+    <text x="392" y="238" fill="#3fc59f" font-family="SF Mono, Menlo, Consolas, monospace" font-size="21" font-weight="600" letter-spacing="4.5">A SELF-PACED COURSE · ≈ 44 WEEKS</text>
+    <text x="392" y="322" fill="#ffffff" font-size="78" font-weight="700" letter-spacing="-1.5">Silicon to Serving</text>
+    <text x="392" y="378" fill="#97a2b2" font-size="29">From C pointers and SIMD to CUDA kernels</text>
+    <text x="392" y="416" fill="#97a2b2" font-size="29">and multi-cloud LLM serving.</text>
+
+    <g font-family="SF Mono, Menlo, Consolas, monospace" font-size="18" font-weight="600">
+      <rect x="392" y="452" width="294" height="46" rx="23" fill="#ffffff" fill-opacity=".07" stroke="#38c6e8" stroke-opacity=".30"/>
+      <text x="420" y="481" fill="#cfd8e6">64 interactive lessons</text>
+      <rect x="702" y="452" width="272" height="46" rx="23" fill="#ffffff" fill-opacity=".07" stroke="#38c6e8" stroke-opacity=".30"/>
+      <text x="730" y="481" fill="#cfd8e6">18 platform projects</text>
+      <rect x="990" y="452" width="196" height="46" rx="23" fill="#ffffff" fill-opacity=".07" stroke="#38c6e8" stroke-opacity=".30"/>
+      <text x="1018" y="481" fill="#cfd8e6">20 animations</text>
+    </g>
+  </g>
+</svg>

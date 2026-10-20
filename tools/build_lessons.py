@@ -19,6 +19,7 @@ PAGE = """<!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>{title}</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="{fonts}">
 <link rel="stylesheet" href="assets/lesson.css">
 <script src="{gsap}"></script>
