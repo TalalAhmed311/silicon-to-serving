@@ -15,7 +15,4 @@ terraform.tfvars
 .terraform/
 
 # Local planning / agent notes (not for the public repo)
-GAPS.md
-GLOSSARY.md
-PROGRESS.md
 CLAUDE.md
